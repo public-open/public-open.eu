@@ -1,0 +1,8 @@
+# Information about the site
+
+title: Public & Open Foundation
+description: The goal of the Public & Open Foundation is to support open collaboration and open source development of software and policy used by public administrations in order to deliver sovereign, transparent, cost-effective and lower risk digital public infrastructure.
+
+# Jekyll configuration
+
+permalinks: pretty

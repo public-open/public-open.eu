@@ -1,0 +1,4 @@
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,blockquote,pre,form,fieldset,legend,input,textarea,th,td {
+    max-width: 30rem;
+    margin: 1em auto;
+}
