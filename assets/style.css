@@ -1,4 +1,21 @@
-h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,blockquote,pre,form,fieldset,legend,input,textarea,th,td {
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,200;0,400;0,900;1,500&display=swap');
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+    font-size: large;
+    padding: 4rem;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,blockquote,pre,form,fieldset,legend,input,textarea,th,td,header,footer {
     max-width: 30rem;
     margin: 1em auto;
+}
+h1,h2,h3,h4 {
+    font-weight: 200;
+}
+
+header > h1#site-title {
+    font-size: 2.5rem;
+    font-weight: 900;
 }
