@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }} | {{ site.title }}</title>
+		<link rel="stylesheet" href="/assets/style.css">
+		<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+	</head>
+	<body>
+		<header>
+			<a href="/" id="site-logo"><img src="/assets/logo.svg" alt="Foundation Public & Open Logo"></a>
+		</header>
+        <nav>
+            <ul>
+                <li><a href="/mission">Mission</a></li>
+                <li><a href="/people">People</a></li>
+                <li><a href="/organization">Organization</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+		{{ content }}
+	</body>
+</html>

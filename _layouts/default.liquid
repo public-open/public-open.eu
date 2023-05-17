@@ -1,27 +1,7 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<title>{{ page.title }} | {{ site.title }}</title>
-		<link rel="stylesheet" href="/assets/style.css">
-		<link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
-	</head>
-	<body>
-		<header>
-			<img src="/assets/logo.svg" alt="Foundation Public & Open Logo" id="site-logo">
-			<h1 id="site-title">{{ site.title }}</p>
-		</header>
-		<h1>{{ page.title }}</h1>
-		<section>
-			{{ content }}
-		</section>
-		<footer>
-			<h3>Contact</h3>
-			<ul>
-				<li>Stichting Public & Open i.o.</li>
-				<li><a href="mailto:info@public-open.eu">info@public-open.eu</a></li>
-				<li><address>Conradstraat 423H<br>1018NE Amsterdam<br>The Netherlands</address></li>
-			</ul>
-		</footer>
-	</body>
-</html>
+---
+layout: site
+---
+
+<section>
+	{{ content }}
+</section>

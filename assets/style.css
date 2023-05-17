@@ -3,11 +3,20 @@
 body {
     font-family: 'Public Sans', sans-serif;
     font-weight: 400;
-    font-size: large;
+    font-size: 16px;
     padding: 4rem;
+    background-color: white;
+    color: black;
+    line-height: 1.4;
 }
 
-h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,blockquote,pre,form,fieldset,legend,input,textarea,th,td,header,footer {
+@media screen and (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,blockquote,pre,form,fieldset,legend,input,textarea,th,td,header,footer,address {
     max-width: 30rem;
     margin: 1em auto;
 }
@@ -15,11 +24,40 @@ h1,h2,h3,h4 {
     font-weight: 200;
 }
 
-header > h1#site-title {
-    font-size: 2.5rem;
-    font-weight: 900;
-}
-header > img#site-logo {
+header > a#site-logo img {
     width: 5rem;
     margin-bottom: 0;
+}
+h1#public--open-foundation {
+    font-weight: 900;
+}
+
+nav>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    list-style: none;
+    margin: auto;
+    padding: 0;
+}
+nav>ul>li {
+    padding: 0 0.2rem;
+}
+
+a:link, a:visited {
+    text-decoration: underline;
+    color: inherit;
+}
+a:link {
+    text-decoration-color: blue;
+}
+a:visited {
+    text-decoration-color: purple;
+}
+a:link[href^='#'], a:visited[href^='#'] {
+    text-decoration-color: darkgrey;
+}
+a:hover {
+    background: whitesmoke;
 }
