@@ -4,10 +4,7 @@ layout: default
 
 # People: Core contributors
 
-The Public & Open Foundation draws on a multidisciplinary network of contributors.
-
-spearheaded by the Founder of the Foundation for Public Code and former chief executive Boris VAN HOYTEMA, together with the codebase stewardship leadership team made up out of Eric HERMAN, also chairman of the MariaDB Foundation, and Claus MULLIE, coordinator for codebase stewardship at the Foundation For Public Code.
-
+The Public & Open Foundation draws on a multidisciplinary network of contributors. It is spearheaded by members of the leadership team from the Foundation for Public Code. 
 
 ## Core contributors
 
