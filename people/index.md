@@ -4,7 +4,7 @@ layout: default
 
 # People: Core contributors
 
-The Public & Open Foundation draws on a multidisciplinary network of contributors. It is spearheaded by members of the leadership team from the Foundation for Public Code. 
+The Public & Open Foundation draws on a multidisciplinary network of contributors. It is spearheaded by members of the leadership team from the Foundation for Public Code.
 
 ## Core contributors
 
@@ -59,5 +59,3 @@ The Public & Open Foundation draws on a multidisciplinary network of contributor
 </li>
 {% endfor %}
 </ul>
-
-## Contributors
