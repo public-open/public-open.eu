@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: CC0-1.0
 # SPDX-FileCopyrightText: 2018-2023 The Foundation for Public Code <info@publiccode.net>
 type: Bio
-role: Chief executive
+role:
 image: boris-van-hoytema.jpg
 redirect_from:
     - team/boris-van-hoytema

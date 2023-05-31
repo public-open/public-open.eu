@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: CC0-1.0
 # SPDX-FileCopyrightText: 2018-2023 The Foundation for Public Code <info@publiccode.net>
 type: Bio
-role: Lead codebase steward
+role:
 image: eric-herman.jpg
 redirect_from:
     - team/eric-herman
