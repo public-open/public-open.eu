@@ -46,14 +46,14 @@ spearheaded by the Founder of the Foundation for Public Code and former chief ex
     }
 </style>
 
-<ul id="core-contributor-list">
+<ul id="core-contributors-list">
 {% assign bios = site.pages | where: 'type', 'Bio' %}
 {% for bio in bios %}
 <li>
     <a href="{{bio.url}}">
         <svg viewBox="0 0 100 100">
     {% if bio.image %}
-            <image href="core-contributor/{{bio.image}}" alt="Photo of {{bio.title}}" height="100" width="100" preserveAspectRatio="xMidYMid slice"/>
+            <image href="core-contributors/{{bio.image}}" alt="Photo of {{bio.title}}" height="100" width="100" preserveAspectRatio="xMidYMid slice"/>
     {% endif %}
         </svg>
     </a>
@@ -64,4 +64,3 @@ spearheaded by the Founder of the Foundation for Public Code and former chief ex
 </ul>
 
 ## Contributors
-
