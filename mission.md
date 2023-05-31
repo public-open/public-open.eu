@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Mission
 
 The mission of the Public & Open Foundation is to help European public sector organizations and open source communities work together in a more effective, resilient, sustainable and scalable way.
