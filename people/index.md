@@ -13,7 +13,7 @@ The Public & Open Foundation draws on a multidisciplinary network of contributor
         width: 100%;
         flex: 1 1 100%;
     }
-    #team-list {
+    #core-contributors-list {
         list-style: none;
         padding: 0 0 0 0;
         display: flex;
@@ -21,21 +21,22 @@ The Public & Open Foundation draws on a multidisciplinary network of contributor
         justify-content: space-around;
         align-items: first baseline;
         max-width: 100%;
+        background-color: whitesmoke;
     }
-    #team-list>li {
+    #core-contributors-list>li {
         display: block;
         max-width: 165px;
         width: 100%;
         max-width: 20em;
         margin: 1em;
     }
-    #team-list>li>a>svg {
+    #core-contributors-list>li>a>svg {
         display: block;
         width: 100%;
         background-color: #5B57CA
     }
-    #team-list>li>a>h3,
-    #team-list>li>a>p {
+    #core-contributors-list>li>a>h3,
+    #core-contributors-list>li>a>p {
         text-decoration: none;
     }
     .markdown-body li + li {
