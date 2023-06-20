@@ -7,4 +7,4 @@ Stichting Public & Open in oprichting.
 
 <info@public-open.eu>
 
-<address>Conradstraat 423H<br>1018NE Amsterdam<br>The Netherlands</address>
+<address>Groen van Prinstererstraat 52,1ste<br>1051EN Amsterdam<br>The Netherlands</address>
