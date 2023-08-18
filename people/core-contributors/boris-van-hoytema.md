@@ -8,7 +8,7 @@ redirect_from:
     - team/boris-van-hoytema
 ---
 
-# Boris van Hoytema
+# Boris van Hoytema (Former member)
 
 Founder of the Foundation for Public Code, and its former chief executive, Boris VAN HOYTEMA helps society progress and create the future it wants, harnessing the ever increasing pace of technological and social change.
 
